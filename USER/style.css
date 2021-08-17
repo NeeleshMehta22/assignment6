@@ -1,0 +1,72 @@
+h1 {text-align: center;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#Mytable{
+    display: none;
+    
+}
+.container{
+    text-align: center;
+    margin-bottom: 30px;  
+    padding-top: 50px;
+}  
+#btn{
+    font-size: 15px;
+}  
+body{
+    background-color: aqua;
+}
+table,td,th{
+align-content: center;
+border:1px solid gray;
+border-collapse: collapse;
+margin: 10px;
+padding: 2px;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover{
+background-color: #ddd;
+}
+table th {
+padding-top: 16px;
+padding-bottom: 16px;
+text-align: center;
+background-color: #4CAF50;
+color: white;
+}
+
+.button-toolbar{
+margin-top:5px;
+
+}
+
+input{
+width: 150px;
+
+} 
+button{
+border-radius: 1rem;
+border-color: darkblue;
+text-align-last: right;
+}  
+#btn{
+border:1px solid grey;
+cursor: pointer;
+padding: 15px;
+margin: 20px;
+text-align: center;
+border-radius: 10%;
+background-color: rgba(255, 136, 0, 0.932);
+color: whitesmoke;
+font-size: large;
+transition: all 0.8s;
+text-align: center;
+}
+#btn:hover{
+text-decoration: underline;
+background-color: rgb(245, 100, 4);
+}
